@@ -1,0 +1,25 @@
+.section_ {
+    height: 50vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.section_ > img {
+    width: 380px;
+    height: 265px;
+}
+.div_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 80px;
+}
+.logomarcas {
+    margin: 10vh 0 0 0;
+    padding: 5vh 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logomarcas > img {
+    width: 155px;
+}
+
