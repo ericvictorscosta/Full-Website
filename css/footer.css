@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+footer {
+    color: white;
+    background: #1D2130;
+    height: 38vh;
+}
+.div_footer {
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div_footer > div {
+    margin-top: 5vh ;
+}
+.company_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5.5vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.h3footer {
+    margin-bottom: 10px;
+}
+.h3comun {
+    margin-bottom: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer_class {
+    width: 100vw;
+    height: 100vh;
+}
+.div_content_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+
+.logoForm {
+    height: 24vh;
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.logoForm > img {
+    width: 130px;
+    height: 30px;
+}
+.logoForm > h3 {
+    margin-top: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.logoForm > div > input {
+    margin-top: 14px;
+    width: 280px;
+    height: 46px;
+    border-style: none;
+    background: #2B2E3C;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-family: 'Roboto';
+    font-style: normal;
+
+
+}
+.logoForm > div > button {
+    position: absolute;
+    right: 76px;
+    top: 1786px;
+    width: 100px;
+    height: 46px;
+    border-style: none;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #1D2130;
+    cursor: pointer;
+}
+/* .logoForm > div > button:clic {
+    
+} */
+#footermail::placeholder {
+
+}
+.line_footer {
+    display: flex;
+    justify-content: center;   
+    height: 10vh;
+}
+.div_line_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.lineone {
+    width: 31vw;
+    border-top: 1px solid gray;
+    margin: 0 4vh;
+    margin-top: 1.7vh;
+}
+
+.contentlinefooter {
+    display: flex;
+    align-items: center;
+    margin-top: 1.7vh;
+}
+.contentlinefooter > div > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.contentlinefooter > div > a {
+    width: 20px;
+    margin-right: 10px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.onepfooter {
+    margin-right: 20px;
+}
+.twoimgfooter {
+    margin-left: 20px;
+}
+.blur_footer {
+    position: absolute;
+    width: 500px;
+    height: 380px;
+    right: -10px;
+    top: -80px;
+    background: radial-gradient(483.9% 2719.65% at -49.5% -250%, #449c9c 17.55%, #a8eeee 27.56%, #AED3FF 49.89%, #a8eeee 56.53%, #a8eeee 65.69%);
+    filter: blur(230px);
+}

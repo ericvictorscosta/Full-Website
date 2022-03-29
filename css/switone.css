@@ -1,25 +1,171 @@
+/* ----------------------- section_ ----------------------- */
 .section_ {
-    height: 50vh;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    height: 45vh;
+    margin-top: 11vh;
 }
 .section_ > img {
     width: 380px;
     height: 265px;
 }
 .div_section {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 80px;
 }
+.blur {
+    z-index: -10;
+    position: absolute;
+    width: 500px;
+    height: 380px;
+    right: -10px;
+    top: -80px;
+    background: radial-gradient(483.9% 2719.65% at -49.5% -250%, #449c9c 17.55%, #a8eeee 27.56%, #AED3FF 49.89%, #a8eeee 56.53%, #a8eeee 65.69%);
+    filter: blur(230px);
+}
+.div_section_text {
+    margin-top: 23px;
+}
+.div_section > div > h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 110%;
+    color: #1D2130;
+    margin-bottom: 15px;
+}
+.div_section > div > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1D2130;
+    opacity: 0.87;
+    margin-bottom: 25px;
+}
+.button_black {
+    border-style: none;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 150%;
+    width: 140px;
+    height: 50px;
+    padding: 10px 35px;
+    background: #1D2130;
+    color: white;
+    margin-right: 5px;
+    border-radius: 12px;
+}
+.button_white {
+    border-style: none;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 150%;
+    width: 140px;
+    height: 50px;
+    padding: 10px 35px;
+    background: #FFFFFF;
+    border: 2px solid #E0E4FC;
+    color: #1D2130;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
 .logomarcas {
-    margin: 10vh 0 0 0;
-    padding: 5vh 0 0 0;
+    height: 30vh;
     display: flex;
     justify-content: space-evenly;
 }
 .logomarcas > img {
     width: 155px;
 }
+.bannerp1 {
+    position: absolute;
+    max-width: 616px;
+    max-height: 401px;
+    width: 530px;
+    height: 345.02px;
+    right: 0;
+    top: -5.5vh;
+}
+/* ----------------------- section__ ----------------------- */
+.section__ {
+    background: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div_section__ {
+    height: 73vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20vh;
+}   
 
+.div_section__ > div > h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 7vh;
+}
+.background {
+    width: 90vw;
+    height: 25vw;
+    background: rgb(238 238 238);
+    border-radius: 24px;
+}
+.div__section__ {
+    height: 250px;
+    display: flex;
+    margin-top: 7vh;
+}
+
+.div__section__ > div {
+    margin: 0 20px;
+}
+.div__section__ > div > img {
+    margin-bottom: 15px;
+}
+.div__section__ > div > h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    color: #1D2130;
+    margin-bottom: 20px;
+}
+.div__section__ > div > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #1D2130;
+    opacity: 0.87;
+}
+
+.div__section__feature-central {
+    border-left: 1px solid darkgray;
+    border-right: 1px solid darkgray;
+    padding-left: 20px;
+    padding-right: 20px;
+}

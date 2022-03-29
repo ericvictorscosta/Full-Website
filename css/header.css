@@ -5,10 +5,12 @@
     padding: 0;
 }
 body {
+    overflow: overlay;
     width: 100vw;
     height: 100vh;
 }
 header {
+    background: white;
     width: 100vw;
     height: 72px;
     display: flex;
