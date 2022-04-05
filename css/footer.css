@@ -169,4 +169,5 @@ footer {
     top: -80px;
     background: radial-gradient(483.9% 2719.65% at -49.5% -250%, #449c9c 17.55%, #a8eeee 27.56%, #AED3FF 49.89%, #a8eeee 56.53%, #a8eeee 65.69%);
     filter: blur(230px);
+    z-index: -1;
 }
