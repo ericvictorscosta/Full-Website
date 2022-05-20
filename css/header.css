@@ -16,6 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    grid-column: 2 / -2;
 }
 .div_logo {
     margin-left: 80px;

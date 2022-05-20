@@ -3,6 +3,16 @@
     height: 45vh;
     margin-top: 11vh;
 }
+body {
+    display: grid;
+    grid-template-columns: 
+    calc(50vw - 850px)
+    repeat(3, 1fr)
+    calc(50vw - 850px);
+}
+main {
+    grid-column: 2 / -2;
+}
 .section_ > img {
     width: 380px;
     height: 265px;
@@ -85,6 +95,7 @@
     height: 30vh;
     display: flex;
     justify-content: space-evenly;
+    margin: 3.5rem 0 0 0;
 }
 .logomarcas > img {
     width: 155px;
@@ -96,7 +107,7 @@
     width: 530px;
     height: 345.02px;
     right: 0;
-    top: -5.5vh;
+    top: 2.5vh;
 }
 /* ----------------------- section__ ----------------------- */
 .section__ {
